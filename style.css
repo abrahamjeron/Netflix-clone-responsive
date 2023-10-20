@@ -1,0 +1,271 @@
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.first-scroll{
+    background-image: url("./assets/Title-Image.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#logo{
+    position: relative;
+    margin-left: 70px;
+    top: 20px;
+    height: 25px;
+}
+nav{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    left: 180px;
+    bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.options{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    right: 60px;
+    bottom: 25px;
+}
+#logorgb{
+    position: relative;
+    height: 30px;
+}
+.text-1{
+    position: relative;
+    top: 430px;
+    left: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+#maid{
+    position: relative;
+    top: 50px;
+    font-size: 7rem;
+}
+.buttons{
+    position: relative;
+    margin-top: 500px;
+    bottom: 190px;
+    left: 100px;
+}
+#play-1,#detail{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 60px;
+    width: 50px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5%;
+}
+#playimg{
+    position: relative;
+    top: 5px;
+}
+p{
+    color: white;
+}
+#detail{
+    position: relative;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.425);
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#detailimg{
+    position: relative;
+    top: 5px;
+}
+#maid{
+    color: white;
+    position: relative;
+    top: 310px;
+    left: 95px;
+}
+.see-again{
+    display: grid;
+    grid-template-columns: repeat(6,350px);
+    overflow-x: scroll;
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+}
+#see-again{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+#arrow{
+    position: relative;
+    height: 15px;
+    top: 4px;
+    left: 3px;
+}
+.see-again img{
+    position: relative;
+    height: 170px;
+}
+#top10{
+    position: relative;
+    left: 100px;
+}
+#ri4,#ri5,#ri6{
+    position: relative;
+    height: 270px;
+}
+.top10{
+    position: relative;
+    left: 30px;
+    display: grid;
+    grid-template-columns: repeat(6,350px);
+    overflow-x: scroll;
+}
+.top10 img{
+    position: relative;
+    height: 200px;
+}
+#cmp44,#ri4,#cmp55,#ri5,#cmp66,#ri6{
+    height: 200px;
+}
+#tp10{
+    position: relative;
+    left: 100px;
+}
+#arr2{
+    position: relative;
+    height: 15px;
+    left: 5px;
+    top: 2px;
+}
+.trendingnow{
+    position: relative;
+    top: 120px;
+    left: 35px;
+    display: grid;
+    grid-template-columns: repeat(7,350px);
+    overflow-x: scroll;
+}
+.trendingnow img{
+    height: 170px;
+}
+#trendingnow{
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+.scifi img{
+    position: relative;
+    height: 170px;
+}
+.scifi{
+    position: relative;
+    top: 280px;
+    left: 35px;
+    display: grid;
+    grid-template-columns: repeat(6,350px);
+    overflow-x: scroll;
+
+}
+#scifi{
+    position: relative;
+    top: 245px;
+    left: 100px;
+}
+#toggle{
+    display: none;
+}
+@media all and (max-width:700px){
+    .see-again{
+        position: relative;
+        bottom: 500px;
+        display: grid;
+        grid-template-columns: 50px;
+        
+    }
+    #see-again{
+        position: relative;
+        bottom: 500px;
+    }
+    .see-again img{
+        position: relative;
+        height: 300px;
+        right: 60px;
+    }
+    .first-scroll{
+        background-image: url("./assets/Title-Image.png");
+        background-size: 100%;
+    }
+    .top10{
+        position: relative;
+        top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+    }
+    .top10 img{
+        height: 230px;
+    }
+    .trendingnow{
+        position: relative;
+        top: 300px;
+        display: grid;
+        grid-template-columns: 50px;
+        
+    }
+    .trendingnow img{
+        position: relative;
+        height: 300px;
+        right: 60px;
+    }
+    .scifi{
+        position: relative;
+        top: 500px;
+        display: grid;
+        grid-template-columns: repeat(1,350px);
+    }
+    .scifi img{
+        position: relative;
+        height: 300px;
+        right: 60px;
+    }
+    #scifi{
+        position: relative;
+        top: 505px;
+        left: 100px;
+    }
+    #trendingnow{
+        position: relative;
+        top: 305px;
+        left: 100px;
+    }
+    #top10{
+        position: relative;
+        top: 805px;
+        left: 100px;
+    }
+    nav{
+        display: none;
+    }
+    .texts{
+        position: relative;
+        bottom: 370px;
+    }
+    #toggle{
+        display: flex;
+        position: relative;
+        left: 170px;
+        bottom: 11px;
+        height: 30px;
+    }
+}
